@@ -3,3 +3,8 @@ body {
 	width: 100%;
 	background: url('cclogo.svg') no-repeat center center fixed;	
 }
+
+.social {
+	width: 30px;
+	height: 30px;
+}
