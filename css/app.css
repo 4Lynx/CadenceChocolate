@@ -1,10 +1,31 @@
 body {
-	height: 100%;
-	width: 100%;
-	background: url('cclogo.svg') no-repeat center center fixed;	
+	background: url('cclogo.svg') no-repeat center center fixed;
+	-webkit-background-size: contain;
+	background-size: contain;
 }
 
-.social {
-	width: 30px;
+.facebook {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
 	height: 30px;
+	width: 30px;
+}
+
+.instagram {
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+}
+
+
+@media(min-width:768px) {
+	body{
+		background: url('cclogo.svg') no-repeat center center fixed;
+		width: 100%;
+		height: 100%;
+}
+
+#images {
+	text-align: center;
 }
