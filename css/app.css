@@ -4,16 +4,10 @@ body {
 	background-size: contain;
 }
 
-.facebook {
+.social {
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 30px;
-	width: 30px;
-}
-
-.instagram {
-	display: inline-block;
 	height: 30px;
 	width: 30px;
 }
@@ -28,4 +22,16 @@ body {
 
 #images {
 	text-align: center;
+}
+
+footer {
+	font-size: 9px;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	/*display: inline-block;*/
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
 }
